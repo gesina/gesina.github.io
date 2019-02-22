@@ -1,0 +1,804 @@
+/*
+ CSS3 style sheet based on
+ gutenweb.css (https://github.com/waiting-for-dev/gutenweb/)
+ with minor changes:
+ - body has border (if not printed)
+ - h2 have bottom-border
+ - …
+*/
+
+$content-width: 50em;
+$content-padding: 3em;
+$main-font-size: 9pt;
+$main-font: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, sans-serif; /*Helvetica,Arial,sans-serif*/
+$main-line-height: 1.6 * $main-font-size;
+$paragraph-margin: 0.66 * $main-line-height;
+$item-margin: 0.3 * $paragraph-margin;
+$main-border-width: 1pt;
+$tablehead-border-width: 2px;
+$parindent: 2em;
+
+%main-margin-top{
+	margin-top:$paragraph-margin;
+}
+
+%small-margin{
+	margin-top:$item-margin;
+}
+
+%emphasized{
+	font-weight: bold;
+}
+
+%bottom-border{
+	border-width: 1px 0 0 0;
+}
+
+
+@charset "UTF-8";
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+body {
+	background-color: #d1d7e2;
+
+	color: #222;
+	font-size:$main-font-size;
+	font-family:$main-font;
+	
+	line-height:$main-line-height;
+	text-align:left;
+	
+	/* typographic details */
+	word-spacing:normal;
+	hyphens:auto;
+	orphans:2;
+	widows:2;
+	font-variant-numeric:oldstyle-nums;
+}
+
+/* TODO html,:root */
+
+/* Content box */
+html, body {
+	height: 100%;
+}
+.content, content {
+	max-width:$content-width + $content-padding;
+	min-height:85%; // At least window size
+	
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:$paragraph-margin;
+	padding-bottom:$paragraph-margin;
+	padding-left:$content-padding;
+	padding-right:$content-padding;
+
+	border-style: outset;
+	border-width: 1pt;
+	border-color: gray;
+
+	overflow: hidden;
+}
+
+/* TODO input, textarea, select {} */
+
+
+/* Lists */
+ol,ul {
+	list-style:none;
+	margin-left: 2em;
+}
+ul, ol {
+	margin: 0;
+	padding-left: 1.5em;
+}
+ul ul {
+	@extend %small-margin;
+	margin-bottom: $item-margin;
+}
+
+ul {
+	li {
+	list-style-type:disc;
+	}
+	ul {
+		li {
+			list-style-type: square;
+		}
+		ul li {
+			list-style-type: square;
+		}
+	}
+}
+
+ol li {
+	list-style-type:decimal;
+}
+
+dl {
+	@extend %main-margin-top;
+	margin-left: $parindent;
+}
+dd {
+	margin-left: $parindent;
+}
+dt {
+	@extend %small-margin;
+	margin-top:$item-margin;
+	@extend %emphasized; // TODO: Fix @extend
+	font-weight:bold;
+	/* // For LaTeX-like description lists
+	float:left;
+	margin-right:1em;
+	text-indent:-1em;
+	*/
+}
+
+
+/* Quotes */
+blockquote,q {
+	quotes:none;
+}
+blockquote:before,blockquote:after,q:before,q:after {
+	content:'';
+	content:none;
+}
+
+/* Captions */
+caption {
+	font-style:italic;
+	text-align:center;
+}
+
+/* Tables (inspirations from http://fletcher.github.io/MultiMarkdown-5/) */
+table {
+	/* border stuff */
+	border-collapse:collapse;
+	border-spacing:0;
+	border: solid black;
+	border-width: $tablehead-border-width 0px;
+	border-spacing: 0px;
+	empty-cells: hide;
+	
+	padding: 0.5em;
+	margin: 20px auto;
+}
+
+tr:nth-child(odd) {
+    background-color: #f1f5fa;
+}
+
+th {
+	font-weight: bold;
+	border: solid gray;
+	border-width: $tablehead-border-width;
+	padding: 5px;
+    background-color: #eee;
+}
+td {
+	padding-right: $item-margin;
+	padding-left: $item-margin;
+}
+td, th {
+	display: table-cell;
+	vertical-align: inherit;
+	padding: 5px 10px;
+}
+
+td[colspan] {
+	/* center text in merged cells */
+	text-align: center;
+}
+td[rowspan] {
+	/* center text in merged cells */
+	vertical-align: middle;
+}
+
+table caption {
+	margin: 5px;
+	text-align: center;
+	caption-side: bottom;
+}
+tfoot td {
+	font-style:italic;
+}
+
+table table {
+    margin: 10px 0;
+    width: auto;
+}
+
+table table th, table table td {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    padding: 0.2em 0.5em;
+    width: auto;
+}
+
+/* Table head and body borders */
+
+thead > tr:last-child > th { border-style: none; }
+tbody > tr:first-child > td, tbody > tr:first-child > th {
+	border-top: $tablehead-border-width solid black;
+}
+
+/* Paragraph spacing */
+p+p {
+	@extend %main-margin-top;
+}
+
+
+/* Other */
+
+address,article,aside,audio,canvas,footer,header,ol,ul,dl,pre,section,table,video,img,figure {
+	@extend %main-margin-top;
+	margin-bottom:$paragraph-margin;
+}
+
+/* Headings */
+
+h1 {
+	font-size:2.25em; /*160%*/
+	line-height:1.33333em;
+	margin-top:0.66667em;
+	margin-bottom:0.66667em;
+}
+
+h2 {
+	font-size:1.5em;
+	line-height:1em;
+	margin-top:1em;
+	margin-bottom:1em;
+	
+	border-style: outset;
+	border-width: 0pt 0pt 1pt 0pt;
+}
+
+h3 {
+	font-size:1.3125em;
+	line-height:1.14286em;
+	margin-top:1.14286em;
+	margin-bottom:1.14286em;
+}
+
+h4 {
+	font-size:1.125em;
+	line-height:1.33333em;
+	margin-top:1.33333em;
+	margin-bottom:1.33333em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:Georgia,serif;
+	font-weight:bold;
+	page-break-after:avoid;
+}
+
+/* TODO */
+tr {
+	page-break-before:avoid;
+	page-break-after:avoid;
+}
+
+
+blockquote {
+	margin-top:2.25em;
+	margin-bottom:2.25em;
+	margin-left:2.25em;
+	margin-right:2.25em;
+}
+
+blockquote p {
+	margin-top:0em;
+	margin-bottom:0em;
+	text-indent:0;
+}
+
+
+/* Images */
+figure {
+	text-align:center;
+}
+
+figure img,figure audio,figure canvas,figure video,figure table {
+	margin-top:0;
+	margin-bottom:0;
+}
+
+figcaption {
+	font-size:0.875em;
+	line-height:1.71429em;
+	margin-top:0em;
+	margin-bottom:1.71429em;
+	font-style:italic;
+}
+
+img {
+	vertical-align:bottom;
+}
+
+/* TODO: @media for small dimensions for logo */
+.logo {
+    float: left;
+	margin: 2em;
+}
+
+
+code,samp,kbd,var {
+	font-family:Consolas,"Liberation Mono",Courier,monospace;
+	font-size:0.875em;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	line-height:0.875em;
+	padding:0 0.3em;
+}
+
+mark {
+	background:#ff0;
+	color:#000;
+}
+
+code,.code,samp,kbd,var {
+	background-color:#f8f8f8;
+	box-shadow:0 0 0.1em 0.1em #ddd;
+}
+
+em {
+	font-style:italic;
+}
+
+strong {
+	font-weight:bold;
+}
+
+abbr {
+	letter-spacing:0.1em;
+}
+
+abbr[title] {
+	border-bottom:1px dotted #000;
+}
+
+cite,q {
+	font-style:italic;
+}
+
+q {
+	font-style:italic;
+	quotes:"“" "”" "‘" "’";
+}
+
+q:before {
+	content:open-quote;
+}
+
+q:after {
+	content:close-quote;
+}
+
+dfn {
+	font-style:italic;
+}
+
+sup,sub {
+	font-size:70%;
+	line-height:70%;
+	position:relative;
+}
+
+sup {
+	top:-0.5em;
+}
+
+sub {
+	top:0.5em;
+}
+
+hr {
+	border-bottom:0.0625em solid #000;
+	border-top:0 none;
+	border-left:0 none;
+	border-right:0 none;
+	margin-top:1.4375em;
+	margin-bottom:1.5em;
+}
+
+small {
+	font-size:0.875em;
+	line-height:1.71429em;
+	margin-top:1.71429em;
+	margin-bottom:1.71429em;
+}
+
+i {
+	font-style:italic;
+}
+
+b {
+	font-weight:bold;
+}
+
+u {
+	text-decoration:underline;
+}
+
+s {
+	text-decoration:line-through;
+}
+
+ins {
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+del {
+	text-decoration:line-through;
+}
+
+.caps,.nums {
+	letter-spacing:0.1em;
+}
+
+.caps {
+	font-variant-numeric:lining-nums;
+}
+
+.code {
+	overflow:auto;
+	padding:0 1em;
+	background-color:#f8f8f8;
+	box-shadow:0 0 0.1em 0.1em #ddd;
+}
+
+.code code,.code samp,.code kbd,.code var {
+	box-shadow:none;
+	padding:0;
+}
+
+.chapter {
+	page-break-after:auto;
+	page-break-before:always;
+}
+
+.note {
+	text-indent:0;
+	font-size:0.875em;
+	line-height:1.71429em;
+	margin-top:1.71429em;
+	margin-bottom:1.71429em;
+}
+
+.verse {
+	font-family:inherit;
+	display:table;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.toc {
+	margin:0 auto;
+}
+
+.toc td,.toc th {
+	outline:0 none;
+}
+
+.toc th {
+	padding:0 0.5em 0 0;
+	text-align:right;
+	font-weight:normal;
+}
+
+.toc td:before {
+	content:"\2022";
+	padding-right:0.5em;
+}
+
+.toc td {
+	padding:0;
+	text-align:left;
+	font-style:italic;
+}
+
+@page {
+	margin-top:72pt;
+	margin-bottom:72pt;
+}
+
+@media print {
+	body {
+		font-size:12pt;
+		line-height:18pt;
+		margin-top:0pt;
+		margin-bottom:0pt;
+		font-family:"Times New Roman",Times,serif;
+		border-style: none;
+	}
+
+	p {
+		margin-top:18pt;
+		margin-bottom:0pt;
+	}
+
+	p+p {
+		margin-top: 1em;
+	}
+
+	address,article,aside,audio,canvas,footer,header,ol,ul,dl,pre,section,table,video,img,figure {
+		margin-top:18pt;
+		margin-bottom:18pt;
+	}
+
+	h1 {
+		font-size:21pt;
+		line-height:36pt;
+		margin-top:18pt;
+		margin-bottom:18pt;
+	}
+
+	h2 {
+		font-size:18pt;
+		line-height:18pt;
+		margin-top:18pt;
+		margin-bottom:18pt;
+	}
+
+	h3 {
+		font-size:16pt;
+		line-height:18pt;
+		margin-top:18pt;
+		margin-bottom:18pt;
+	}
+
+	h4 {
+		font-size:14pt;
+		line-height:18pt;
+		margin-top:18pt;
+		margin-bottom:18pt;
+	}
+
+	dt {
+		margin-right:18pt;
+	}
+
+
+	blockquote {
+		margin-top:27pt;
+		margin-bottom:27pt;
+		margin-left:27pt;
+		margin-right:27pt;
+	}
+
+	blockquote p {
+		margin-top:0em;
+		margin-bottom:0em;
+		text-indent:0;
+	}
+
+	figcaption {
+		font-size:10pt;
+		line-height:18pt;
+		margin-top:0pt;
+		margin-bottom:18pt;
+	}
+
+	pre {
+		white-space:pre-line;
+	}
+
+	abbr[title] {
+		border-bottom:0 none;
+	}
+
+	small {
+		font-size:10pt;
+		line-height:18pt;
+		margin-top:18pt;
+		margin-bottom:18pt;
+	}
+
+	hr {
+		border-bottom:0.08333em solid #000;
+		margin-top:17pt;
+		margin-bottom:18pt;
+	}
+
+	.note {
+		font-size:10pt;
+		line-height:18pt;
+		margin-top:18pt;
+		margin-bottom:18pt;
+}
+	
+}
+
+/*
+table of contents
+*/
+
+.tableofcontents, .TOC{
+	font-weight: normal;
+/*	width: 60%;*/
+	border-style: ridge;
+    border-width: 3pt;
+	padding: 0em 2em 0em 2em;
+	display: inline-block;
+	margin: 2em 0em 1em 0em;
+}
+
+.tableofcontents li, .TOC li, nav li {
+	list-style-type: none;
+	font-weight: bold;
+}
+
+.tableofcontents a:link, .tableofcontents a:visited , .TOC a:link, .TOC a:visited, nav a:visited, nav a:link{
+																	  text-decoration:none;
+																	  color:inherit;
+																  }
+.tableofcontents a:hover , .TOC a:hover, nav a:hover{
+							   text-decoration:underline;
+						   }
+
+.tableofcontents ul ul ul, .TOC ul ul ul {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	list-style-position: outside;
+	padding-left: 1em;
+}
+
+.tableofcontents ul ul ul li, .TOC  ul ul ul li, nav ul ul li{
+	font-weight: normal;
+}
+
+nav ul ul li {
+	list-style-type: none;
+}
+	
+nav {
+	padding: 1em;
+}
+/*nav em {
+	color: green;
+}*/
+
+@media (max-width: 999px) {
+	.content, content {
+		border-style: none;
+	}
+	
+	nav {
+		background-color: gray;
+		color: white;
+	}
+	nav::before {
+		content: "Navigation";
+	}
+	nav>ul {
+		margin-top:0px;
+		display: none;
+	}
+	nav:hover>ul {
+		display: block;
+	}
+	h1 {
+		font-size: 1.75em;
+	}
+}
+
+@media (min-width: 999px){
+	nav {
+		text-align: center;
+	}
+	
+	nav ul {
+		display: inline-block;
+		margin: 0px;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	nav>ul>li>ul {
+		display: none;
+		position: absolute;
+		margin: 0px;
+		padding: 0.75em;
+		background-color: white;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		list-style-type: none;
+		
+	}		
+
+	nav>ul>li:hover ul {
+		display: block;
+	}
+
+	nav > ul > li {
+		display: inline-block;
+		padding: 0.25em 0.5em 0.25em 0.5em;
+		margin: 0px 1em 0.5em 1em;
+		border-bottom: $tablehead-border-width;
+		border-style: solid;
+	}
+
+	nav a {
+		border: none;
+		font-weight: bold;
+	}
+
+}
+
+
+
+/* -------------------------- 
+Source: https://github.com/fletcher/MultiMarkdown-6-Syntax-Guide/blob/master/css/markdown-reference.css
+*/
+
+/* Links */
+
+a:link, a:visited {
+  color: #376bd5;
+}
+
+a:hover {
+  color: #ff5c07;
+}
+
+a:active {
+  color: #910;
+}
+
+a img {
+  border-style: none;
+}
+
+/* Forms */
+
+form {
+  border-top: 1px solid #ccc;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+/* Special */
+
+#title {
+  background-color: #a1adcb;
+  border-bottom: 1px solid #b8bdc7;
+  color: #444;
+  padding: 10px 10px;
+  text-shadow: 0px 1px 0px #cdd9fd;
+}
+
+.section-name {
+  background: url('../images/arrow_down.gif') no-repeat center left;
+  color: #525252;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  padding: 5px 10px 5px 16px;
+  text-shadow: 0 1px 0 #fff;
+  text-transform: uppercase;
+}
+
+.deselected {
+  background-image: url('../images/arrow_right.gif');
+}
+
+.section {
+  border-color: #b8bdc7;
+  border-style: solid;
+  border-width: 1px 0;
+  background-color: white;
+}

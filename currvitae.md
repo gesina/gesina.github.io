@@ -14,6 +14,7 @@ Here a short version of my CV.
 
 | When | What | Where |
 |------|------|-------|
+| 2018–now  | PhD Student in Applied Informatics | [University of Bamberg][cogsys] and [Continental Automotive GmbH][conti] |
 | 2016–2018 | M.Sc. Mathematics        | [University of Regensburg][uniregensburg] |
 | 2014–2016 | B.Sc. Mathematics        | [University of Regensburg][uniregensburg] |
 | 2013–2014 | Studies of B.Sc. Physics | [University of Regensburg][uniregensburg] |

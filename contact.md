@@ -19,8 +19,5 @@ Mail
 XMPP
 :	gesina.schwalbe(at)im.f3l.de
 
-Address (Work)
-:	Gesina Schwalbe
-:	Continental Automotive GmbH
-:	Siemensstraße 12
-:	93055 Regensburg
+Other
+:	[Github][github], [LinkedIn][linkedin], [Twitter][twitter]

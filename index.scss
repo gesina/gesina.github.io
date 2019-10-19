@@ -32,7 +32,7 @@ $subtable-border-color: lighten($table-border-color, 10%);
 
 $link-color: darken($logo-color, 10%);
 $link-color-hover: $logo-color;
-$link-color-visited: darken($link-color, 20%);
+$link-color-visited: darken($link-color, 5%);
 
 // Sizes and margins
 $content-width: 35em;

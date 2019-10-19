@@ -10,16 +10,22 @@ HTML Footer: </div>
 
 ![][me]
 
-This is the homepage of *Gesina Schwalbe*.
-
-
-I am currently a Ph.D. student working at [Continental Automotive GmbH][conti],
-department Artificial Intelligence and Robotics on the topic Safety
-assurance for AI-based systems in autonomous driving. 
+I am *Gesina Schwalbe* currently a Ph.D. student at the 
+[University of Bamberg][cogsys], 
+working at [Continental Automotive GmbH][conti],
+department Artificial Intelligence and Robotics, in area of safety
+assurance for AI-based systems in autonomous driving.
+My research topic is formal verification of deep neural networks for
+computer vision. For this I am developing quantifiable
+localization and enforcement of visual semantic concepts based on
+[Net2Vec](https://github.com/gesina/DNN_Absicherung) and
+[TCAV](https://github.com/gesina/DNN_Absicherung).
 
 My Ph.D. adviser is 
 [Prof. Dr. Ute Schmid][schmid], 
 head of department [Cognitive Systems][cogsys], University of Bamberg.
+I am currently working in the publicly funded project
+[KI-Absicherung](http://www.tuvpt.de/index.php?id=ki-absicherung).
 
 
 [me]: me.jpg class=logo

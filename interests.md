@@ -7,7 +7,7 @@ HTML Footer: </div>
 {{./nav.md}}
 
 # Interests and Skills
-Some things I privately like and support are the
+Some things I personally like and support are
 [Underwater Rugby][uwr],
 [CoasterCast.de][coastercast],
 the [Binary Kitchen][binarykitchen], and 

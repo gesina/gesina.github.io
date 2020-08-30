@@ -11,10 +11,10 @@ Contact me via one of
 - Matrix: @gesina:im.f3l.de
 
 Where else you can find me:
-- [Github][github]
-- [LinkedIn][linkedin]
-- [Twitter][twitter]
-- My ORCID: [0000-0003-2690-2478][ORCID]
+- Github: [gesina][github]
+- LinkedIn: [gesina-schwalbe-2301b495][linkedin]
+- Twitter: [GesinaSchwalbe][twitter]
+- ORCID: [0000-0003-2690-2478][ORCID]
 
 
 [github]: https://github.com/gesina "Github Profile Gesina Schwalbe"

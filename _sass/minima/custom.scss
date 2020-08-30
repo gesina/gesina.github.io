@@ -1,0 +1,16 @@
+/*
+  Custom overrides of minima styling.
+  Needs to be changed starting with minima version 3.0.
+*/
+
+
+// Overwrites
+// ----------
+$text-color:       #333 !default;
+$background-color: #f9f9f9 !default;
+// TODO: Change in new version!
+$brand-color:      darken(#40CC1A, 10%) !default;
+
+$content-width:    42em !default;
+$on-palm:          0.8 * $content-width !default;
+$on-laptop:        $content-width !default;

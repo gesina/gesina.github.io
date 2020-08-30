@@ -1,18 +1,13 @@
-Title: Interests Gesina Schwalbe
-Author: Gesina Schwalbe <gesina.schwalbe(at)uni-bamberg.de>
-CSS: ./index.css
-Quotes Language: english
-HTML Footer: </div>
+---
+title: Interests & Skills
+---
 
-{{./nav.md}}
-
-# Interests and Skills
 Some things I personally like and support are
-[Underwater Rugby][uwr],
-[CoasterCast.de][coastercast],
-the [Binary Kitchen][binarykitchen], and 
-the [FSI M/Phy][FSI].
-
+- [Underwater Rugby][uwr],
+- my [grandpa's homepage][antekunst],
+- [CoasterCast.de][coastercast],
+- the [Binary Kitchen][binarykitchen], and 
+- the [FSI M/Phy][FSI].
 
 ## Some more Interests
 - 2015–2017 student representative in the board of the Faculty of
@@ -28,32 +23,34 @@ the [FSI M/Phy][FSI].
   [Tauchclub Ratisbona][tcr]
 
 
-## Some Basic Skills
-Languages
-:	German (mother tongue), 
-:	English (>= CEF C1),
-:	Chinese (basics), 
-:	Latin (do NOT come up with the idea I could ever have spoken this fluently!) 
+## What I worked with so far
+Some "basic skills" in the form of things I worked with so far (including my current *favorites*):
 
-Programing languages
-:	Python, Java, C++, C, R, D, Javascript, Lua, Assembler
+- **Languages:** German (mother tongue), *English* (>= CEF C1), Chinese (basics), Latin (do NOT come up with the idea I could speak this fluently!) 
+- **Programing languages:**
+  *Python*, Java, C++, C, R, D, Javascript, Lua, Assembler
+- **Markup languages:**
+  *LaTeX*, HTML5 und CSS3, Markdown
+- **Operating Systems:**
+  *Linux*, Android, Windows (even though I prefer a shell ;-))
+- **Applications:**
+  - VCS: *Git* (if need be Subversion)
+  - IDEs: *IntelliJ/Pycharm*, a bit Eclipse, a bit VS Code
+  - Bibliography Management (Zotero)
+  - Standard Office apps like MS O365 (but I often prefer LaTeX Beamer over PowerPoint ;-))
+  - Containerization (*Docker*, plain [RunC](https://github.com/opencontainers/runc))
+- **Frameworks**:
+  - Unit-Testing: Unittest and *Pytest* (Python), JUnit (Java)
+  - Doc generation: *Sphinx*
+  - Web: Apache Isis, Aurelia, a bit of *Spring*
+  - Machine Learning: Keras, *PyTorch*, Tensorflow
 
-Markup languages
-:	LaTeX, HTML5 und CSS3, Markdown
 
-Operating Systems
-:	Linux, Android, Windows (even though I prefer a shell ;-))
 
-Applications
-:   IDEs (IntelliJ, Eclipse), VCS (Git, Subversion),
-:   Bibliography Management (Zotero), standard Office Apps (e.g. MS O365),
-:   Containerization (Docker, plain [RunC](https://github.com/opencontainers/runc))
-
-Frameworks
-:	Web (Apache Isis, Aurelia), 
-:	Unit-Testing (Java: JUnit; Python: Unittest, Pytest),
-:	Machine Learning (Keras, PyTorch, Tensorflow)
-
-## Advanced Trainings
-- Agile Development Student Edition course by [Andrena Objects][andrena], Munich
-- Workshop on modern web development with the Aurelia framework by [Senacor][senacor], Bonn
+[uwr]: https://tcrev.de/uw-rugby2/ "Underwater Rugby Team of the Tauchclub Ratisbona (SCUBA diving club Regensburg)"
+[fsi]: https://www-app.uni-regensburg.de/Studentisches/FS_MathePhysik/cmsms/ "Fachschaftsinitiative Mathe/Physik Uni Regensburg"
+[tcr]: https://tcrev.de/ "Tauchclub Ratisbona"
+[coastercast]: http://coastercast.de/ "CoasterCast podcast on roller coasters (and the like)"
+[binarykitchen]: https://www.binary-kitchen.de/ "Binary Kitchen, the Hackspace in Regensburg"
+[schnupperstudium]: https://www.uni-regensburg.de/mathematik/schnupperstudium/index.html "Yearly trial studies mathematics at University of Regensburg"
+[antekunst]: https://ante-kunst.de/ "My grandpa's homepage I manage (German)"

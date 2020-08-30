@@ -1,21 +1,16 @@
-Title: Publications Gesina Schwalbe
-Author: Gesina Schwalbe <gesina.schwalbe(at)uni-bamberg.de>
-CSS: ./index.css
-Quotes Language: english
-HTML Footer: </div>
+---
+title: Publications
+---
 
-{{./nav.md}}
-
-# Publications
 Below find a selected collection of my publications. For any material
-not (yet) linked here, simply [contact me][contact].
+not (yet) linked here, simply contact me.
 
 ## Publications<sup><a href="https://orcid.org/0000-0003-2690-2478"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin:0em;padding:0em;margin-right:.5em;vertical-align:middle;" alt="ORCID iD icon">0000-0003-2690-2478</a></sup>
 
-- Gesina Schwalbe, Martin Schels. Concept Enforcement and Modularization as Methods for the ISO 26262 Safety Argumentation of Neural Networks. 10th European Congress on Embedded Real Time Software and Systems (ERTS 2020), Jan 2020, Toulouse, France. ([hal-02442796](https://hal.archives-ouvertes.fr/hal-02442796))
-- Gesina Schwalbe, Martin Schels. A Survey on Methods for the Safety Assurance of Machine Learning Based Systems. 10th European Congress on Embedded Real Time Software and Systems (ERTS 2020), Jan 2020, Toulouse, France. ([hal-02442819](https://hal.archives-ouvertes.fr/hal-02442819))
+- Gesina Schwalbe, Martin Schels. 2020. “Concept Enforcement and Modularization as Methods for the ISO 26262 Safety Argumentation of Neural Networks.” In *10th European Congress on Embedded Real Time Software and Systems (ERTS 2020)*, Toulouse, France. ([hal-02442796](https://hal.archives-ouvertes.fr/hal-02442796))
+- Gesina Schwalbe, Martin Schels. 2020. “A Survey on Methods for the Safety Assurance of Machine Learning Based Systems.” In *10th European Congress on Embedded Real Time Software and Systems (ERTS 2020)*, Toulouse, France. ([hal-02442819](https://hal.archives-ouvertes.fr/hal-02442819))
 - Schwalbe, Gesina, and Martin Schels. 2019. “Strategies for Safety Goal Decomposition for Neural Networks.” In *Extended Abstracts of ACM Computer Science in Cars Symposium*. Kaiserslautern, Germany. ([pdf](https://cscs19.cispa.saarland/files/cscs19_camera_ready/14_CSCS19-nn_safety_gaol_decomposition.pdf)).
-- Schwalbe, Gesina. 2018. *Immersions and Stiefel-Whitney Classes of Manifolds*. Master thesis in mathematics. University of Regensburg, Germany. ([pdf](https://github.com/gesina/master_thesis/blob/master/Immersions_and_Stiefel-Whitney_Classes_of_Manifolds.pdf)).
+- Schwalbe, Gesina. 2018. “Immersions and Stiefel-Whitney Classes of Manifolds*. Master thesis in mathematics.” University of Regensburg, Germany. ([pdf](https://github.com/gesina/master_thesis/blob/master/Immersions_and_Stiefel-Whitney_Classes_of_Manifolds.pdf)).
 - Schwalbe, Gesina. 2019. “Concept Enforcement and Modularization for the ISO26262 Safety Case of Neural Networks.” In *[ECML PKDD 2019 PhD Forum](https://ecmlpkdd2019.org/submissions/phdforum/)*. Würzburg, Germany, September 16.
 - Schwalbe, Gesina. 2016. *Neron-Modelle elliptischer Kurven* (German). Bachelor thesis in mathematics. University of Regensburg, Germany. ([pdf](https://github.com/gesina/neron_models/blob/master/neron_models-onesided.pdf)).
 

@@ -2,7 +2,7 @@
 title: Publications
 ---
 
-Below find a selected collection of my publications. For any material
+Below find a selected collection of my publications and some reviewing activities. For any material
 not (yet) linked here, simply contact me.
 
 ## Publications<sup><a href="https://orcid.org/0000-0003-2690-2478"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin:0em;padding:0em;margin-right:.5em;vertical-align:middle;" alt="ORCID iD icon">0000-0003-2690-2478</a></sup>
@@ -30,3 +30,7 @@ in [this](https://github.com/gesina/seminar_talks) Github repository.
 ### Other
 - 2019-09-04 "From Mathematics to PhD Student in Machine Learning." Informative talk at [trial studies mathematics](https://www.uni-regensburg.de/mathematik/schnupperstudium/) 2019
 - 2016-06-11 [Overview on a selection of typographical topics](https://github.com/gesina/typography_talk) (German)
+
+## Reviews
+- Subreviewer for [ECML PKDD 2020](https://ecmlpkdd2020.net/)
+- Subreviewer for [EPE 2020](http://www.epe.tuiasi.ro/2020/)

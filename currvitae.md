@@ -26,7 +26,7 @@ During my studies (2013--2018) I received scholarships by the
 |------|------|-------|
 | Oct 2018–now | PhD student          | [Continental Automotive GmbH][conti],<br>Holistic Engineering and Technologies, Artificial Intelligence |
 | 2017–2018     | Working Student      | [Continental Automotive GmbH][conti],<br>Corp S&T, Software Center of Competence |
-| 2016–2017     | Excercise instructor | University of Regensburg,<br>[Fakulty of Mathematics][mathefak] |
+| 2016–2017     | Excercise instructor | University of Regensburg,<br>[Faculty of Mathematics][mathefak] |
 | 2015–2016     | Excercise instructor for LaTeX block courses | University of Regensburg,<br>[Faculty of Physics][physikfak] |
 
 

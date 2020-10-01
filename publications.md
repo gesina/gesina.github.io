@@ -14,7 +14,7 @@ not (yet) linked here, simply contact me.
 - Schwalbe, Gesina, and Martin Schels. 2019. “Strategies for Safety Goal Decomposition for Neural Networks.” In *Extended Abstracts of 3rd ACM Comput. Science in Cars Symp.* Kaiserslautern, Germany. [pdf](https://cscs19.cispa.saarland/files/cscs19_camera_ready/14_CSCS19-nn_safety_gaol_decomposition.pdf).
 - Schwalbe, Gesina. 2019. “Concept Enforcement and Modularization for the ISO26262 Safety Case of Neural Networks.” In *Proc. [ECML PhD Forum 2019](https://ecmlpkdd2019.org/submissions/phdforum/)*. Würzburg, Germany, September 16.
 - *[Master thesis]* Schwalbe, Gesina. 2018. Immersions and Stiefel-Whitney Classes of Manifolds. University of Regensburg, Germany. [pdf](https://github.com/gesina/master_thesis/blob/master/Immersions_and_Stiefel-Whitney_Classes_of_Manifolds.pdf).
-- *[Bachelor thesis]* Schwalbe, Gesina. 2016. Neron-Modelle elliptischer Kurven (German). University of Regensburg, Germany. [pdf](https://github.com/gesina/neron_models/blob/master/neron_models-onesided.pdf).
+- *[Bachelor thesis]* Schwalbe, Gesina. 2016. Neron-models of Elliptic Curves. (German). University of Regensburg, Germany. [pdf](https://github.com/gesina/neron_models/blob/master/neron_models-onesided.pdf).
 
 ## Public Talks
 ### Machine Learning
@@ -28,8 +28,8 @@ All official material (theses, term papers, and talks) is linked
 in [this](https://github.com/gesina/seminar_talks) Github repository.
 
 ### Other
-- 2019-09-04 "From Mathematics to PhD Student in Machine Learning." Informative talk at [trial studies mathematics](https://www.uni-regensburg.de/mathematik/schnupperstudium/) 2019
-- 2016-06-11 [Overview on a selection of typographical topics](https://github.com/gesina/typography_talk) (German)
+- 2019-09-04 "From Mathematics to PhD Student in Machine Learning." (German). Informative talk at [trial studies mathematics](https://www.uni-regensburg.de/mathematik/schnupperstudium/) 2019.
+- 2016-06-11 "An Insight into Typography." (German). Informative talk on a selection of typographical topics at privately organized Seminar. ([slides](https://github.com/gesina/typography_talk))
 
 ## Reviews
 - Subreviewer for [ECML PKDD 2020](https://ecmlpkdd2020.net/)

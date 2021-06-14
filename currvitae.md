@@ -8,12 +8,12 @@ Find below a short version of my curriculum vitae.
 
 | When | What | Where |
 |------|------|-------|
-| 2018–now  | PhD Student in Applied Informatics | [University of Bamberg][cogsys] and [Continental Automotive GmbH][conti] |
+| 2018–now  | PhD Student in Applied Informatics | [University of Bamberg][cogsys] |
 | 2016–2018 | M.Sc. Mathematics        | [University of Regensburg][uniregensburg] |
 | 2014–2016 | B.Sc. Mathematics        | [University of Regensburg][uniregensburg] |
 | 2013–2014 | Studies of B.Sc. Physics | [University of Regensburg][uniregensburg] |
-| 2010–2012 | Studies of B.Sc. Chemistry accompanying school | [University of Regensburg][uniregensburg] |
-| 2005–2013 | High School (Gymnasium)  | Regensburg, Germany |
+| 2010–2012 | Extracurricular studies Chemistry accompanying school | [University of Regensburg][uniregensburg] |
+| 2005–2013 | High School (Gymnasium)  |  |
 
 During my studies (2013--2018) I received scholarships by the
 [German National Academic Foundation][studienstiftung] and the
@@ -24,10 +24,10 @@ During my studies (2013--2018) I received scholarships by the
 
 | When | What | Where |
 |------|------|-------|
-| Oct 2018–now | PhD student          | [Continental Automotive GmbH][conti],<br>Holistic Engineering and Technologies, Artificial Intelligence |
+| Oct 2018–now  | PhD student          | [Continental Automotive GmbH][conti],<br>Holistic Engineering and Technologies, Artificial Intelligence |
 | 2017–2018     | Working Student      | [Continental Automotive GmbH][conti],<br>Corp S&T, Software Center of Competence |
-| 2016–2017     | Excercise instructor | University of Regensburg,<br>[Faculty of Mathematics][mathefak] |
-| 2015–2016     | Excercise instructor for LaTeX block courses | University of Regensburg,<br>[Faculty of Physics][physikfak] |
+| 2016–2017     | Tutor for Linear Algrebra lecture | University of Regensburg,<br>[Faculty of Mathematics][mathefak] |
+| 2015–2016     | Tutor for LaTeX block courses | University of Regensburg,<br>[Faculty of Physics][physikfak] |
 
 
 

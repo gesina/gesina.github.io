@@ -5,7 +5,7 @@ title: Interests & Skills
 Some things I personally like and support are
 - [Underwater Rugby][uwr],
 - my [grandpa's homepage][antekunst],
-- [CoasterCast.de][coastercast],
+- podcasts [CoasterCast.de][coastercast], [Kaum-Intelligent.de][kaumintelligent],
 - the [Binary Kitchen][binarykitchen], and 
 - the [FSI M/Phy][FSI].
 
@@ -24,26 +24,28 @@ Some things I personally like and support are
 
 
 ## What I worked with so far
-Some "basic skills" in the form of things I worked with so far (including my current *favorites*):
+Some "basic skills" as a selection of things I worked with so far (sorted by preference):
 
-- **Languages:** German (mother tongue), *English* (>= CEF C1), Chinese (basics), Latin (do NOT come up with the idea I could speak this fluently!) 
+- **Languages:** English (>= CEF C1), German (mother tongue), Chinese (basics), Latin (do NOT come up with the idea I could speak this fluently!) 
 - **Programing languages:**
-  *Python*, Java, C++, C, R, D, Javascript, Lua, Assembler
+  Python, Kotlin, Java, C++, C, R, D, Typescript, Javascript, Lua, Assembler
 - **Markup languages:**
-  *LaTeX*, HTML5 und CSS3, Markdown
+  LaTeX, HTML5 und CSS3, Markdown
 - **Operating Systems:**
-  *Linux*, Android, Windows (even though I prefer a shell ;-))
+  Linux, Android, Windows (even though I prefer a shell)
 - **Applications:**
-  - VCS: *Git* (if need be Subversion)
-  - IDEs: *IntelliJ/Pycharm*, a bit Eclipse, a bit VS Code
-  - Bibliography Management (Zotero)
-  - Standard Office apps like MS O365 (but I often prefer LaTeX Beamer over PowerPoint ;-))
-  - Containerization (*Docker*, plain [RunC](https://github.com/opencontainers/runc))
+  - VCS: Git (if need be: Subversion)
+  - IDEs: IntelliJ/Pycharm, VS Code, Emacs, Eclipse
+  - Bibliography Management: Zotero
+  - Standard Office apps like MS O365
+  - Containerization: Docker, plain [RunC](https://github.com/opencontainers/runc)
+  - Prototyping: Jupyter
 - **Frameworks**:
-  - Unit-Testing: Unittest and *Pytest* (Python), JUnit (Java)
-  - Doc generation: *Sphinx*
-  - Web: Apache Isis, Aurelia, a bit of *Spring*
-  - Machine Learning: Keras, *PyTorch*, Tensorflow
+  - Unit-Testing: Pytest and Unittest (Python), JUnit (Java)
+  - Doc generation: Sphinx
+  - Web: a bit of Spring, Apache Isis, Aurelia
+  - Machine Learning: PyTorch, Keras, Tensorflow
+- **Softskills**: Agile software development (Scrum, Kanban)
 
 
 
@@ -54,3 +56,4 @@ Some "basic skills" in the form of things I worked with so far (including my cur
 [binarykitchen]: https://www.binary-kitchen.de/ "Binary Kitchen, the Hackspace in Regensburg"
 [schnupperstudium]: https://www.uni-regensburg.de/mathematik/schnupperstudium/index.html "Yearly trial studies mathematics at University of Regensburg"
 [antekunst]: https://ante-kunst.de/ "My grandpa's homepage I manage (German)"
+[kaumintelligent]: https://kaum-intelligent.de

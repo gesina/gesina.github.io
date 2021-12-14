@@ -7,7 +7,6 @@ I am currently located in Regensburg, Germany.
 Contact me via one of
 
 - Mail: [gesina.schwalbe(at)pheerai.de](mailto:gesina.schwalbe@pheerai.de)
-- XMPP: gesina.schwalbe@im.f3l.de
 - Matrix: @gesina:im.f3l.de
 
 Where else you can find me:

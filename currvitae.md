@@ -8,7 +8,7 @@ Find below a short version of my curriculum vitae.
 
 | When | What | Where |
 |------|------|-------|
-| 2018–2022 | Dr. rer.nat. in Applied Informatics ([thesis][thesis])| [University of Bamberg][cogsys] |
+| 2018–2022 | Dr. rer.nat. in Applied Informatics ([thesis][phdthesis])| [University of Bamberg][cogsys] |
 | 2016–2018 | M.Sc. Mathematics ([thesis][masterthesis])        | [University of Regensburg][uniregensburg] |
 | 2014–2016 | B.Sc. Mathematics ([thesis][bachelorthesis])      | [University of Regensburg][uniregensburg] |
 | 2013–2014 | Studies of B.Sc. Physics | [University of Regensburg][uniregensburg] |
@@ -40,5 +40,6 @@ During my studies (2013--2018) I received scholarships by the
 [cogsys]: https://www.uni-bamberg.de/en/cogsys/ "Department Cognitive Systems, Faculty of Information Systems and Applied Computer Sciences, University of Bamberg"
 [studienstiftung]: https://www.studienstiftung.de/en/about-us/ "Studienstiftung des Deutschen Volkes"
 [max-weber-programm]: https://www.elitenetzwerk.bayern.de/maxweberprogramm/ueberblick/?L=2 "Max-Weber-Programm des bayerischen Staates"
+[phdthesis]: https://fis.uni-bamberg.de/handle/uniba/57172 "Concept Embedding Analysis Based Methods for the Safety Assurance of Deep Neural Networks"
 [masterthesis]: https://github.com/gesina/master_thesis/blob/master/Immersions_and_Stiefel-Whitney_Classes_of_Manifolds.pdf "Immersions and Stiefel-Whitney Classes of Manifolds"
 [bachelorthesis]: https://github.com/gesina/neron_models/blob/master/neron_models-onesided.pdf "Néron-Modelle elliptischer Kurven"

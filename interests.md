@@ -26,26 +26,21 @@ Some things I personally like and support are
 ## What I worked with so far
 Some "basic skills" as a selection of things I worked with so far (sorted by preference):
 
-- **Languages:** English (>= CEF C1), German (mother tongue), Chinese (basics), Latin (do NOT come up with the idea I could speak this fluently!) 
+- **Languages:** English (>= CEF C1), German (mother tongue), Chinese (basics), Latin
 - **Programing languages:**
-  Python, Kotlin, Java, C++, C, R, D, Typescript, Javascript, Lua, Assembler
-- **Markup languages:**
-  LaTeX, HTML5 und CSS3, Markdown
-- **Operating Systems:**
-  Linux, Android, Windows (even though I prefer a shell)
-- **Applications:**
-  - VCS: Git (if need be: Subversion)
-  - IDEs: IntelliJ/Pycharm, VS Code, Emacs, Eclipse
+  Python, Kotlin, Java, C++, C, R, Julia, D, Typescript, Javascript, Lua, Assembler
+- **Tools & Applications I specifically like:**
+  - IDEs: IntelliJ/Pycharm, VS Code, Emacs
   - Bibliography Management: Zotero
-  - Standard Office apps like MS O365
-  - Containerization: Docker, plain [RunC](https://github.com/opencontainers/runc)
   - Prototyping: Jupyter
+  - VCS: Git
 - **Frameworks**:
   - Unit-Testing: Pytest and Unittest (Python), JUnit (Java)
   - Doc generation: Sphinx
-  - Web: a bit of Spring, Apache Isis, Aurelia
-  - Machine Learning: PyTorch, Keras, Tensorflow
-- **Softskills**: Agile software development (Scrum, Kanban)
+  - Web: Spring, Streamlit
+  - Machine Learning (DNNs): PyTorch, Keras, Tensorflow
+  - Markup languages: LaTeX
+- **Softskills**: Agile software development (Scrum, Kanban, agile and classical project management
 
 
 

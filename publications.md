@@ -17,6 +17,8 @@ More details about my publications at my [ORCID][orcid] or [Google Scholar][goog
 
 ## Selected Talks
 ### Machine Learning
+- Schwalbe, Gesina. 2024. “Erklärbare KI – Warum wir sie brauchen und wie wir dort hinkommen” (German). Presented at the *5th KI-Landeskonferenz Schleswig-Holstein 2024*, Kiel, Germany, Sep 30. slides [de](./resources/2024-09-30_shki-xai_de.pdf), [en](./resources/2024-09-30_shki-xai_en.pdf).
+- Schwalbe, Gesina. 2023. “Methods for the Safety Assurance of Perception DNNs in AD---An Overview”. Presented at the *[Safe and Secure AI Community Meetup 2023-05-11](https://www.merantix-aicampus.com/event/safe-secure-ai-community-dr-gesina-schwalbe)*, Germany, May 11. [slides en](./resources/2024-05-11_sswg-safety_methods.pdf).
 - Schwalbe, Gesina. 2022. “Diversity and Applications of Explainable Artificial Intelligence Methods.” Presented at the *Women in Data Science Regensburg 2022 (WiDS’22)*, Regensburg, Germany, April 14. [https://www.wids-regensburg.de/wids-regensburg-2022/](https://www.wids-regensburg.de/wids-regensburg-2022/). [recording](https://www.youtube.com/watch?v=QJuEsA0zhqo).
 - Schwalbe, Gesina. 2021. “Methods & Challenges for the Safety Assurance of Deep Neural Networks in Computer Vision.” Presented at the *Women in Data Science Regensburg 2021 (WiDS’21)*, Regensburg, Germany, April 14. [https://sites.google.com/view/widsregensburg](https://sites.google.com/view/widsregensburg).
 - Schwalbe, Gesina, and Jing Xiao. 2019. “Safety Argument for ML Based Systems in the Context of Highly Automated Driving.” Presented at the *9th [VDA Automotive SYS Conference](https://vda-qmc.de/en/software-processes/vda-automotive-sys/)*, Potsdam, Germany, June 27.

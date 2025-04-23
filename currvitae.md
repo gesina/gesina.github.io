@@ -8,7 +8,6 @@ Find below a short version of my curriculum vitae (see also [LinkedIn][linkedin]
 
 | When | What | Where |
 |------|------|-------|
-| 2024-now  | Habilitation                                      | [University of Lübeck][uniluebeck] |
 | 2018–2022 | Dr. rer. nat. ([thesis][phdthesis])               | [University of Bamberg][cogsys], Applied Informatics |
 | 2016–2018 | M.Sc. Mathematics ([thesis][masterthesis])        | [University of Regensburg][uniregensburg] |
 | 2014–2016 | B.Sc. Mathematics ([thesis][bachelorthesis])      | [University of Regensburg][uniregensburg] |
@@ -25,6 +24,7 @@ During my studies (2013--2018) I received scholarships by the
 
 | When | What | Where |
 |------|------|-------|
+| Sep 2024-now | Lead of Junior Research Group [chAI][chAI] | [University of Lübeck][uniluebeck], Institute for Software Engineering and Programming Languages, Group Hybrid AI |
 | 2024-now  | Postdoc              | [University of Lübeck][uniluebeck], Institute for Software Engineering and Programming Languages, Group Hybrid AI |
 | 2021–2023 | Researcher Trustworthy AI | [Continental Automotive GmbH][conti],<br>Central R&A, Artificial Intelligence |
 | 2018–2021 | Doctoral Researcher  | [Continental Automotive GmbH][conti],<br>Holistic Engineering and Technologies, Artificial Intelligence |
@@ -46,3 +46,4 @@ During my studies (2013--2018) I received scholarships by the
 [masterthesis]: https://github.com/gesina/master_thesis/blob/master/Immersions_and_Stiefel-Whitney_Classes_of_Manifolds.pdf "Immersions and Stiefel-Whitney Classes of Manifolds"
 [bachelorthesis]: https://github.com/gesina/neron_models/blob/master/neron_models-onesided.pdf "Néron-Modelle elliptischer Kurven"
 [uniluebeck]: https://www.uni-luebeck.de "Universität zu Lübeck"
+[chAI]: https://www.isp.uni-luebeck.de/chai "Junior Research Group chAI (Correctable Hybrid Artificial Intelligence)" 

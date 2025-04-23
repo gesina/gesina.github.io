@@ -20,31 +20,39 @@ Some things I personally like and support are
   e.g. introduction of freshmen)
 - Active underwater rugby player since 2014, underwater rugby
   referee since 2015 in the SCUBA diving club 
-  [Tauchclub Ratisbona][tcr]
+  [Tauchclub Ratisbona][tcr] and since 2024 [DUC Lübeck][duc]
 
 
-## What I worked with so far
-Some "basic skills" as a selection of things I worked with so far (sorted by preference):
+## What I liked to work with so far
+A selection of tools that I personally liked / had fun to work with (sorted by preference):
 
-- **Languages:** English (>= CEF C1), German (mother tongue), Chinese (basics), Latin
-- **Programing languages:**
-  Python, Kotlin, Java, C++, C, R, Julia, D, Typescript, Javascript, Lua, Assembler
+- **Languages:** learning basics of Chinese
+- **Programing:**
+  - Programming Languages:
+    Python (but only with type hints), Kotlin, C++, R, Julia, D, Typescript, Assembler
+  - Doc generation: Sphinx
+  - Unit-Testing: Pytest and Unittest (Python), JUnit (Java)
+  - Machine Learning (DNNs): PyTorch (foremostly), Keras, Tensorflow
+  - Web development: Spring, Streamlit
 - **Tools & Applications I specifically like:**
   - IDEs: IntelliJ/Pycharm, VS Code, Emacs
   - Bibliography Management: Zotero
-  - Prototyping: Jupyter
-  - VCS: Git
-- **Frameworks**:
-  - Unit-Testing: Pytest and Unittest (Python), JUnit (Java)
-  - Doc generation: Sphinx
-  - Web: Spring, Streamlit
-  - Machine Learning (DNNs): PyTorch, Keras, Tensorflow
-  - Markup languages: LaTeX
-- **Softskills**: Agile software development (Scrum, Kanban, agile and classical project management
-
+  - Prototyping: Jupyter Hub
+  - VCS: Git (though I would like to try [jj](https://github.com/jj-vcs/jj) as well)
+- **Markup languages:** LaTeX
+- **Workflow management:**
+  - Collaboration: Overleaf; Gitlab, Github; Nextcloud
+  - Cloud storage and sync (incl. CalDAV, CardDAV sync): (your own) Nextcloud
+  - Notes taking: Obsidian, Nextcloud, Emacs org-mode
+  - Agile principles and tooling (Kanban, Scrum)
+- **Teaching:**
+  - Audio and Video workstations: Reaper, Final Cut Pro
+  - Recording: OBS Studio
+  - Tests / interactive elements: Moodle quizzes, HP5
 
 
 [uwr]: https://tcrev.de/uw-rugby2/ "Underwater Rugby Team of the Tauchclub Ratisbona (SCUBA diving club Regensburg)"
+[duc]: https://duc-luebeck.de/ "DUC Lübeck"
 [fsi]: https://www-app.uni-regensburg.de/Studentisches/FS_MathePhysik/cmsms/ "Fachschaftsinitiative Mathe/Physik Uni Regensburg"
 [tcr]: https://tcrev.de/ "Tauchclub Ratisbona"
 [coastercast]: http://coastercast.de/ "CoasterCast podcast on roller coasters (and the like)"

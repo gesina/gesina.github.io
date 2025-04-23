@@ -13,24 +13,24 @@ More details about my publications at my [ORCID][orcid] or [Google Scholar][goog
 - **Schwalbe**, **Gesina**, Christian Wirth, and Ute Schmid. 2022. “Enabling Verification of Deep Neural Networks in Perception Tasks Using Fuzzy Logic and Concept Embeddings.” Preprint. [https://arxiv.org/abs/2201.00572](https://arxiv.org/abs/2201.00572).
 - **Schwalbe**, **Gesina**. 2021. “Verification of Size Invariance in DNN Activations Using Concept Embeddings.” In AIAI 2021: Artificial Intelligence Applications and Innovations. IFIP Advances in Information and Communication Technology. Springer. [https://doi.org/10.1007/978-3-030-79150-6_30](https://doi.org/10.1007/978-3-030-79150-6_30). ([arXiv:2105.06727](https://arxiv.org/abs/2105.06727))
 - Rabold, Johannes, **Gesina Schwalbe**, and Ute Schmid. 2020. “Expressive Explanations of DNNs by Combining Concept Analysis with ILP.” In *KI 2020: Advances in Artificial Intelligence*, 148–62. Lecture Notes in Computer Science. Springer International Publishing. [https://doi.org/10.1007/978-3-030-58285-2_11](https://doi.org/10.1007/978-3-030-58285-2_11). ([arXiv:2105.07371](https://arxiv.org/abs/2105.07371))
-- **Schwalbe**, **Gesina**, Bernhard Knie, Timo Sämann, Timo Dobberphul, Lydia Gauerhof, Shervin Raafatnia, and Vittorio Rocco. 2020. “Structuring the Safety Argumentation for Deep Neural Network Based Perception in Automotive Applications.” In *Computer Safety, Reliability, and Security. SAFECOMP 2020 Workshops*, 383–394. Cham: Springer International Publishing. [https://doi.org/10.1007/978-3-030-55583-2_29](https://doi.org/10.1007/978-3-030-55583-2_29) ([preprint on ResearchGate](https://www.researchgate.net/publication/354172662)).
+
 
 ## Selected Talks
 ### Machine Learning
+- Schwalbe, Gesina. 2025. “KI Anwendungsfälle und Herausforderungen” (German). Presented at [*Stadtwerke-Forum 2025*](https://www.swhl.de/gek/veranstaltungen/stadtwerke-forum/#programm), Lübeck, Germany, Mar 20. [slides](./resources/2025-03-20_stadtwerke_forum-xai_de.pdf).
 - Schwalbe, Gesina. 2024. “Erklärbare KI – Warum wir sie brauchen und wie wir dort hinkommen” (German). Presented at the *5th KI-Landeskonferenz Schleswig-Holstein 2024*, Kiel, Germany, Sep 30. slides [de](./resources/2024-09-30_shki-xai_de.pdf), [en](./resources/2024-09-30_shki-xai_en.pdf).
 - Schwalbe, Gesina. 2023. “Methods for the Safety Assurance of Perception DNNs in AD---An Overview”. Presented at the *[Safe and Secure AI Community Meetup 2023-05-11](https://www.merantix-aicampus.com/event/safe-secure-ai-community-dr-gesina-schwalbe)*, Germany, May 11. [slides en](./resources/2023-05-11_sswg-safety_methods.pdf).
 - Schwalbe, Gesina. 2022. “Diversity and Applications of Explainable Artificial Intelligence Methods.” Presented at the *Women in Data Science Regensburg 2022 (WiDS’22)*, Regensburg, Germany, April 14. [https://www.wids-regensburg.de/wids-regensburg-2022/](https://www.wids-regensburg.de/wids-regensburg-2022/). [recording](https://www.youtube.com/watch?v=QJuEsA0zhqo).
 - Schwalbe, Gesina. 2021. “Methods & Challenges for the Safety Assurance of Deep Neural Networks in Computer Vision.” Presented at the *Women in Data Science Regensburg 2021 (WiDS’21)*, Regensburg, Germany, April 14. [https://sites.google.com/view/widsregensburg](https://sites.google.com/view/widsregensburg).
-- Schwalbe, Gesina, and Jing Xiao. 2019. “Safety Argument for ML Based Systems in the Context of Highly Automated Driving.” Presented at the *9th [VDA Automotive SYS Conference](https://vda-qmc.de/en/software-processes/vda-automotive-sys/)*, Potsdam, Germany, June 27.
 
 ### Mathematics
 All official material (theses, term papers, and talks) is linked
 in [this](https://github.com/gesina/seminar_talks) Github repository.
 
 ### Other
-- 2023-04-27 "Pedestrian Detection in Automated Driving". (German). Talk at [Girls' Day of the University of Bamberg](https://nachwuchs.wiai.uni-bamberg.de/girlsday) 2023.
-- 2019-09-04 "From Mathematics to PhD Student in Machine Learning". (German). Informative talk at [trial studies mathematics](https://www.uni-regensburg.de/mathematik/schnupperstudium/) 2019.
-- 2016-06-11 "An Insight into Typography". (German). Informative talk on a selection of typographical topics at privately organized Seminar. ([slides](https://github.com/gesina/typography_talk))
+- 2024-04-25 & 2023-04-27 "Pedestrian Detection in Automated Driving". (German). Talk at [Girls' Day of the University of Bamberg](https://nachwuchs.wiai.uni-bamberg.de/girlsday) 2023 & 2024. [slides](./resources/2024-04-25_girls_day_bamberg.pdf).
+- 2019-09-04 "From Mathematics to PhD Student in Machine Learning". (German). Informative talk at [trial studies mathematics event](https://www.uni-regensburg.de/mathematik/schnupperstudium/), University of Regensburg, 2019.
+- 2016-06-11 "An Insight into Typography". (German). Informative talk on a selection of typographical topics at privately organized Seminar, Regensburg, Germany. ([slides](https://github.com/gesina/typography_talk))
 
 ## Invited Reviews
 - 2023: [Elsevier Safety Science](https://www.sciencedirect.com/journal/safety-science) Journal, [IEEE TNNLS](ieeetnls) journal, [SAIAD 2023][saiad2023] workshop (excellence of reviewing award :-))
